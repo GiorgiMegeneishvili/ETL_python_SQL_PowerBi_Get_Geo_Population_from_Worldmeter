@@ -43,8 +43,8 @@ def connect_to_sql_server_and_load(georgia_historical_df, georgia_population_df 
 
 
 if __name__ == '__main__':
-    DB_SERVER = r'DESKTOP-FKVJE09\SQLEXPRESS'
-    DB_NAME = 'Geo_population'
+    DB_SERVER = 'YOUR_SERVER'
+    DB_NAME = 'YOUR_DATABASE'
     countries = ['georgia']
     for country in countries:
         url = f'https://www.worldometers.info/world-population/{country}-population/'
